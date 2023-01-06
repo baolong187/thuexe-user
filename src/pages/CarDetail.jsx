@@ -20,7 +20,7 @@ function CarDetail (props) {
     const [eDate, setEDate] = useState(new Date());
     const user = JSON.parse(localStorage.getItem('user-info'));
     const history = useHistory();
-
+    const today = new Date();
      useEffect( async () => {
         let result = await fetch("http://127.0.0.1:8000/api/cars/"+props.match.params.id);  
         result = await result.json(); 
@@ -49,7 +49,7 @@ function CarDetail (props) {
 
     async function addBill() {
         
-       if(eDate < sDate || sDate < new Date().toLocaleDateString() ) {
+       if(eDate < sDate || sDate < today ) {
            alert('Thời gian đặt xe không hợp lệ');
        }
        else if(day>5) {

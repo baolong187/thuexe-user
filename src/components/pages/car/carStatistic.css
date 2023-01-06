@@ -1,0 +1,16 @@
+.carStatistic{
+    flex: 5;
+}
+
+.datePicker{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnSearch{
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 10px;
+}

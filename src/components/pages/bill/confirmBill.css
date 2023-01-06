@@ -1,0 +1,14 @@
+.confirmBill{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.buttons.button{
+    margin-left: 10px;
+}

@@ -1,0 +1,41 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f4f7 !important;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-login {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 12px;
+    color: #fff;
+    margin-top: 20px;
+    background-color: #2cb8af!important;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-login:hover {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 12px;
+    color: #fff;
+    margin-top: 20px;
+    background-color: #1b5854!important;
+    border: none;
+    border-radius: 5px;
+}
+
+.card-body .register-link {
+    text-decoration: none;
+}

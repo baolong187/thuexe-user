@@ -1,0 +1,11 @@
+.billList{
+    flex: 5;
+}
+
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    display:flex;
+    justify-content: center;
+}

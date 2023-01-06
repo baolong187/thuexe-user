@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 0 15px;
+}
+
+body {
+  background: #f2f4f7;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex-container-car-detail {
+  display: flex;
+  width: 1175px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 78px;
+}
+
+/* Main Content */
+.main-content-car-detail {
+  background: #fff;
+  border-radius: 5px;
+  flex: 3;
+}
+
+.main-content-car-detail h2 {
+  color: #2cb8af;
+}
+
+.main-content-car-detail .top-content-car-detail {
+  display: flex;
+  margin-top: 10px;
+}
+
+.pro-info h2,
+.info-list-item {
+  margin-bottom: 5px;
+}
+
+.info-list-item i {
+  margin-right: 15px;
+}
+
+.main-content .bottom-content {
+  margin: 20 20px;
+}
+
+.pro-img {
+  width: 400px;
+  height: 300px;
+  margin-right: 30px;
+}
+
+.bottom-content-car-detail .bottom-content-item {
+  margin: 20px 0 30px 0;
+}
+
+.bottom-content-item .item-list {
+  display: flex;
+  margin-top: 15px;
+}
+
+.item-list .item-list-col {
+  width: 100%;
+}
+
+.item-list .item-list-col p {
+  margin-bottom: 15px;
+}
+
+.item-list .item-list-col i {
+  margin-right: 15px;
+}
+
+.bottom-content-item h2 {
+  margin-bottom: 20px;
+}
+
+/* Sidebar */
+.main-sidebar-car-detail {
+  background: #fff;
+  border-radius: 5px;
+  flex: 1.5;
+  height: 900px;
+  weight: 600px;
+}
+
+.main-sidebar h2 {
+  color: #2cb8af;
+}
+
+.rent-time,
+.rent-price,
+.rent-method {
+  margin: 10px;
+}
+
+.rent-time p,
+.rent-price p {
+  margin: 15px 0;
+}
+
+.button {
+  text-align: center;
+}
+
+.button a {
+  text-decoration: none;
+  padding: 6px 12px;
+  background-color: #2cb8af;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.button a:hover {
+  text-decoration: none;
+  padding: 6px 12px;
+  background-color: #1b5854;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.dateTimePicker {
+  width: 70%;
+}

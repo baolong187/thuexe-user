@@ -103,7 +103,7 @@ function Success (props) {
 
                             <tr>
                                 <td>Phương thức thanh toán</td>
-                                <td>{bill.paymentMethod  == 'online' ? 'Online' : 'Tiền mặt'}</td>
+                                <td>{bill.paymentMethod  == 'Online' ? 'Online' : 'Tiền mặt'}</td>
                             </tr>
                         </table>
                     </div>

@@ -46,7 +46,6 @@ export const Heading = () => {
                             <>
                             <ul className="nav__links">
                                 <li><Link className="nav__items" href to="/">Trang chủ</Link></li>
-                                <li><Link className="nav__items" href to="/">Về chúng tôi</Link></li>
                                 <Link href to ="/login" className="cta"><button>Đăng nhập</button></Link>
                             </ul>
                             </>

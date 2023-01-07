@@ -31,7 +31,6 @@ export const Heading = () => {
                             <>
                             <ul className="nav__links">
                                 <li><Link className="nav__items" href to="/">Trang chủ</Link></li>
-                                <li><Link className="nav__items" href to="/">Về chúng tôi</Link></li>
                                  <li><Link className="nav__items" href to="/book">Đặt xe</Link></li>
                                 <li>
                                     <NavDropdown title={user.username}>

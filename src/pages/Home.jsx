@@ -105,7 +105,7 @@ export const UserHome = () => {
             </Grid> 
             <Grid item fullWidth  xs={7}>
               <Box sx={{backgroundColor: "#E8E8E8", borderRadius: "0.5rem", height: "100%"}} >
-                <h4  style={{textAlign: "center"}}>Xe được thuê nhiều trong tháng</h4>
+                <h4  style={{textAlign: "center"}}>Xe phù hợp với bạn</h4>
                 <div className="media align-items-lg-center flex-column flex-lg-row p-3">
                   <div className="media-body order-2 order-lg-1">
                     <a className="mt-0 font-weight-bold mb-2" href={car ? "detail/"+car.id : ""}>{car? car.name: ""}</a>

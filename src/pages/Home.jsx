@@ -52,7 +52,7 @@ export const UserHome = () => {
         <div className='row'>
           <div className="col-md-12">
             {localStorage.getItem('user-info') ? 
-              <></> : <h3 className="title">Lợi ích của Chungxe</h3> 
+              <></> : <h3 className="title">Lợi ích của thuê xe</h3> 
             }
           </div>
         </div>
@@ -132,21 +132,26 @@ export const UserHome = () => {
           <div className='row'>
             <div className = "col-md-6">
               <div className="col-lg-4">
-                <img src="https://chungxe.vn/assets/images/icon/icon1.png" alt="" width="100" height="100"/>
+                <img src="https://cdn-icons-png.flaticon.com/512/1356/1356586.png" alt="" width="100" height="100"/>
                 <h2>Nhiều lựa chọn</h2>
-                <p>Hàng trăm loại xe đa dạng ở nhiều địa điểm trên cả nước, phù hợp với mọi mục đích của bạn</p>
+                <p>Hàng trăm loại xe đa dạng ở Hà Nội, phù hợp với mọi mục đích của bạn</p>
               </div>
               <div className="col-lg-4">
-                <img src="https://chungxe.vn/assets/images/icon/icon5.png" alt="" width="100" height="100"/>
+                <img src="https://cdn-icons-png.flaticon.com/512/6582/6582140.png" alt="" width="100" height="100"/>
                 <h2>Hỗ trợ 24/7</h2>
                 <p>Có nhân viên hỗ trợ khách hàng trong suốt quá trình thuê xe</p>
               </div>
             </div>
             <div className = "col-md-6">
               <div className="col-lg-4">
-                <img src="https://chungxe.vn/assets/images/icon/icon3.png" alt="" width="100" height="100"/>
+                <img src="https://cdn-icons-png.flaticon.com/512/138/138239.png" alt="" width="100" height="100"/>
                 <h2>Giá cả cạnh tranh</h2>
                 <p>Giá thuê được niêm yết công khai và rẻ hơn tới 10% so với giá truyền thống</p>
+              </div>
+              <div className="col-lg-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/651/651191.png" alt="" width="100" height="100"/>
+                <h2>Uy tín</h2>
+                <p>Dịch vụ được tin tưởng bởi khách hàng</p>
               </div>
             </div>  
           </div>
@@ -160,7 +165,7 @@ export const UserHome = () => {
               <p className="lead">Nhanh chóng đặt một chiếc xe ưng ý thông qua Website hoặc Ứng dụng (App) của chúng tôi</p>
             </div>
             <div className="col-md-5">
-              <img className="featurette-image img-fluid mx-auto"  alt="500x500" style={{width:'350px', height: '250px'}} src="https://chungxe.vn/assets/images/icon/step1.webp"/>
+              <img className="featurette-image img-fluid mx-auto"  alt="500x500" style={{width:'250px', height: '200px'}} src="https://cdn-icons-png.flaticon.com/512/5361/5361032.png"/>
             </div>
           </div>
           <hr/>
@@ -170,7 +175,7 @@ export const UserHome = () => {
               <p className="lead">Nhận xe tại nhà hoặc các đại lý trong khu vực của chúng tôi</p>
             </div>
             <div className="col-md-5 order-md-1">
-              <img className="featurette-image img-fluid mx-auto" alt="500x500" style={{width:'350px', height: '250px'}} src="https://chungxe.vn/assets/images/icon/step2.webp"/>
+              <img className="featurette-image img-fluid mx-auto" alt="500x500" style={{width:'200px', height: '200px'}} src="https://cdn-icons-png.flaticon.com/512/3061/3061669.png"/>
             </div>
           </div>
           <hr/>
@@ -180,7 +185,7 @@ export const UserHome = () => {
               <p className="lead">Tất cả các phương tiện của chúng tôi đều đạt chuẩn an toàn</p>
             </div>
             <div className="col-md-5">
-              <img className="featurette-image img-fluid mx-auto"  alt="500x500" style={{width:'350px', height: '250px'}} src="https://chungxe.vn/assets/images/icon/step3.webp"/>
+              <img className="featurette-image img-fluid mx-auto"  alt="500x500" style={{width:'300px', height: '250px'}} src="https://cdn-icons-png.flaticon.com/512/171/171239.png"/>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ export const Slide = () => {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3>Chung xe</h3>
+                <h3>Thuê xe</h3>
                 <p>Tận hưởng chuyến đi của bạn.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -28,7 +28,7 @@ export const Slide = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Chung xe</h3>
+                <h3>Thuê xe</h3>
                 <p>Đi lại thoải mái không giới hạn.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -41,7 +41,7 @@ export const Slide = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Chung xe</h3>
+                <h3>Thuê xe</h3>
                 <p>Hàng trăm loại xe cho bạn.</p>
                 </Carousel.Caption>
             </Carousel.Item>

@@ -198,6 +198,7 @@ function CarDetail (props) {
                         <div className="bank">
                             <p>Thông tin chuyển khoản : 22210004998593-BIDV</p>
                             <p>Nội dung chuyển khoản : Họ và tên-SĐT-Tên xe-Biển số-Ngày thuê-Ngày trả</p>
+                            <i><strong>Vui lòng chuyển khoản trong vòng 24h</strong></i>
                         </div> : <></>  
                     }                
                     <div className="rent-price">

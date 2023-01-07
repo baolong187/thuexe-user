@@ -84,7 +84,7 @@ export const UserHome = () => {
                             label="Mục đích"
                             onChange={handleChangeTrip}
                           >
-                            <MenuItem value={2}>Di chuyển trong phố</MenuItem>
+                            <MenuItem value={2}>Đi phố</MenuItem>
                             <MenuItem value={3}>Đi phượt</MenuItem>
                             <MenuItem value={5}>Đưa đón đối tác</MenuItem>
                             <MenuItem value={1}>Đám cưới</MenuItem>

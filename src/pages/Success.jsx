@@ -43,7 +43,7 @@ function Success (props) {
                         <table>
                             <tr>
                                 <td>Họ và tên</td>
-                                <td>{user.fullName}</td>
+                                <td>{user.fullname}</td>
                             </tr>
             
                             <tr>
@@ -67,18 +67,13 @@ function Success (props) {
                         <p className="label">CHI TIẾT ĐẶT XE</p>
                         <table>
                             <tr>
-                                <td>Tạo đơn lúc</td>
-                                <td>{bill.createAt}</td>
-                            </tr>
-
-                            <tr>
                                 <td>Trạng thái đơn</td>
-                                <td>{bill.confirmStatus}</td>
+                                <td>{bill.confirmStatus == 'pending' ? 'Chờ duyệt' : 'Đã duyệt'}</td>
                             </tr>
 
                             <tr>
                                 <td>Trạng thái thanh toán</td>
-                                <td>{bill.paymentStatus}</td>
+                                <td>{bill.paymentStatus == 'unpaid' ? 'Chưa thanh toán' : 'Đã thanh toán'}</td>
                             </tr>
 
                             <tr>
@@ -108,7 +103,7 @@ function Success (props) {
 
                             <tr>
                                 <td>Phương thức thanh toán</td>
-                                <td>{bill.paymentMethod}</td>
+                                <td>{bill.paymentMethod  == 'online' ? 'Online' : 'Tiền mặt'}</td>
                             </tr>
                         </table>
                     </div>
@@ -116,6 +111,7 @@ function Success (props) {
                     <div className="thank-you">
                         <p>Cảm ơn bạn đã sử dụng dịch vụ của Chungxe!</p>
                         <p>Chúc quý khách lên đường thượng lộ bình an và có trải nghiệm tốt nhất!</p>
+                        <br></br>
                         <div className="button1" onClick={confirm}>Quay về trang chủ</div>
                     </div>
                     

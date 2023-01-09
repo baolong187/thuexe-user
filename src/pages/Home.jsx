@@ -87,7 +87,7 @@ export const UserHome = () => {
                             <MenuItem value={2}>Đi phố</MenuItem>
                             <MenuItem value={3}>Đi phượt</MenuItem>
                             <MenuItem value={5}>Đưa đón đối tác</MenuItem>
-                            <MenuItem value={1}>Đám cưới</MenuItem>
+                            <MenuItem value={4}>Đám cưới</MenuItem>
                             <MenuItem value={1}>Về quê</MenuItem>
                           </Select>
                         </FormControl>

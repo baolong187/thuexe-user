@@ -109,7 +109,7 @@ function Success (props) {
                     </div>
 
                     <div className="thank-you">
-                        <p>Cảm ơn bạn đã sử dụng dịch vụ của Chungxe!</p>
+                        <p>Cảm ơn bạn đã sử dụng dịch vụ của Thuexe!</p>
                         <p>Chúc quý khách lên đường thượng lộ bình an và có trải nghiệm tốt nhất!</p>
                         <br></br>
                         <div className="button1" onClick={confirm}>Quay về trang chủ</div>
